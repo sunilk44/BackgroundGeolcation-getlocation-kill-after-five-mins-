@@ -1,0 +1,1352 @@
+11-06 10:30:38.627 DEBUG [TSConfig c] ℹ️   Persist config
+11-06 10:30:38.656 DEBUG [BackgroundGeolocation ready] LocationPermission :false
+11-06 10:30:38.790 INFO [b a] 
+  🔵  LocationAuthorization: Requesting permission
+11-06 10:30:40.869 INFO [b$1 onPermissionGranted] 
+  ✅  LocationAuthorization: Permission granted
+11-06 10:30:40.929 INFO [BackgroundGeolocationService onStartCommand] 
+╔═════════════════════════════════════════════
+║ BackgroundGeolocation Service started
+╠═════════════════════════════════════════════
+
+11-06 10:30:40.942 INFO [BackgroundGeolocationService d] 
+  ✅  Started in foreground
+11-06 10:30:40.962 INFO [ActivityRecognitionService a] 
+  🎾  Start activity updates: 10000
+11-06 10:30:40.987 INFO [BackgroundGeolocationService k] 
+  🔴  Stop heartbeat
+11-06 10:30:40.999 INFO [BackgroundGeolocationService a] 
+  🔵  setPace: null → true
+11-06 10:30:41.008 DEBUG [TSConfig c] ℹ️   Persist config
+11-06 10:30:41.023 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:30:41.065 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] still (100%)
+11-06 10:30:41.083 INFO [BackgroundGeolocationService onActivityRecognitionResult] 
+  🔵  Stop-timeout timer initiated (15 min)...
+11-06 10:30:41.093 INFO [BackgroundGeolocationService h] 
+  🔵  Begin stop timer
+11-06 10:30:43.501 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 1
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280517,73.010728 hAcc=24 et=+10h51m35s26ms alt=206.90000915527344 vAcc=7 sAcc=??? bAcc=??? {Bundle[{requestId=1, verticalAccuracy=6.699997}]}], age: 63ms, time: 1573016443434
+
+11-06 10:30:43.507 INFO [TSLocationManager onSingleLocationResult] 
+  🔵  Acquired motionchange position, isMoving: true
+11-06 10:30:43.521 DEBUG [TSLocationManager a] 23.807
+11-06 10:30:43.532 DEBUG [TSLocationManager a] 0.0
+11-06 10:30:43.578 INFO [TSLocationManager requestLocationUpdates] 
+  🎾  Location-services: ON
+11-06 10:30:43.588 DEBUG [TSConfig translateDesiredAccuracy] translateDesiredAccuracy (true): 0
+11-06 10:30:43.601 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] still (100%)
+11-06 10:30:43.606 INFO [c persist] 
+  ✅  INSERT: 18de6590-ed58-4d1f-9146-9f7f3ab468e3
+11-06 10:30:43.613 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] 
+  ℹ️  Waiting for stopTimeout (15 min): elapsed min: 0
+11-06 10:30:43.652 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280517,73.010728 hAcc=24 et=+10h51m35s228ms alt=206.90000915527344 vAcc=7 sAcc=??? bAcc=??? {Bundle[mParcelledData.dataSize=52]}], age: 13ms, time: 1573016443637
+
+11-06 10:30:43.663 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:30:43.673 DEBUG [TSLocationManager onLocationResult] 
+  ℹ️  IGNORED: same as last location
+11-06 10:30:43.687 INFO [LocationService onLocation] 
+  ℹ️  Location availability: true
+11-06 10:30:54.166 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280533,73.010715 hAcc=23 et=+10h51m45s683ms alt=206.90000915527344 vel=0.18762457 bear=252.59193 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 64ms, time: 1573016455324
+
+11-06 10:30:54.186 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:30:54.195 DEBUG [TSLocationManager a] 23.465
+11-06 10:30:54.206 DEBUG [TSLocationManager a] 2.1349576
+11-06 10:30:54.225 INFO [c persist] 
+  ✅  INSERT: 3293f925-2e84-448d-9a8f-784687b0c093
+11-06 10:31:04.782 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280555,73.010657 hAcc=29 et=+10h51m56s314ms alt=206.90000915527344 vel=0.023172038 bear=75.03976 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 50ms, time: 1573016466000
+
+11-06 10:31:04.803 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:31:04.823 DEBUG [TSLocationManager a] 23.123
+11-06 10:31:04.843 DEBUG [TSLocationManager a] 8.405236
+11-06 10:31:04.893 INFO [c persist] 
+  ✅  INSERT: 8288db29-0781-4d7b-b94d-9f89ef28be6e
+11-06 10:31:14.778 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280584,73.010635 hAcc=14 et=+10h52m6s326ms alt=206.90000915527344 vel=0.27155757 bear=93.862206 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 39ms, time: 1573016476000
+
+11-06 10:31:14.802 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:31:14.810 DEBUG [TSLocationManager a] 23.465
+11-06 10:31:14.819 DEBUG [TSLocationManager a] 12.312511
+11-06 10:31:14.849 INFO [c persist] 
+  ✅  INSERT: 69b20a78-ad4f-462d-84ff-00f4f0864d7a
+11-06 10:31:24.832 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280577,73.010675 hAcc=11 et=+10h52m16s378ms alt=206.90000915527344 vel=0.81756884 bear=111.86447 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 35ms, time: 1573016486000
+
+11-06 10:31:24.852 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:31:24.868 DEBUG [TSLocationManager a] 23.807
+11-06 10:31:24.887 DEBUG [TSLocationManager a] 16.33223
+11-06 10:31:24.914 INFO [c persist] 
+  ✅  INSERT: ae3e116a-981d-45da-b90c-672480ad4291
+11-06 10:31:34.873 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280575,73.010662 hAcc=11 et=+10h52m26s404ms alt=206.90000915527344 vel=0.0010170366 bear=0.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 50ms, time: 1573016496000
+
+11-06 10:31:34.891 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:31:34.906 DEBUG [TSLocationManager a] 18.763
+11-06 10:31:34.916 DEBUG [TSLocationManager a] 17.654127
+11-06 10:31:34.952 INFO [c persist] 
+  ✅  INSERT: aefbae58-7a63-437a-8f43-7a99100dbc21
+11-06 10:31:45.827 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280557,73.010649 hAcc=9 et=+10h52m37s356ms alt=206.90000915527344 vel=0.02026143 bear=0.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 55ms, time: 1573016507000
+
+11-06 10:31:45.844 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:31:45.852 DEBUG [TSLocationManager a] 13.719
+11-06 10:31:45.862 DEBUG [TSLocationManager a] 19.960186
+11-06 10:31:45.888 INFO [c persist] 
+  ✅  INSERT: eff59421-900c-4d6b-a11b-2064c4df12f7
+11-06 10:31:56.869 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280559,73.010645 hAcc=10 et=+10h52m48s405ms alt=206.90000915527344 vel=3.2916156E-4 bear=180.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 42ms, time: 1573016518000
+
+11-06 10:31:56.888 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:31:56.898 DEBUG [TSLocationManager a] 12.121
+11-06 10:31:56.907 DEBUG [TSLocationManager a] 20.438313
+11-06 10:31:56.937 INFO [c persist] 
+  ✅  INSERT: 1313e55d-6f0b-4f7b-9d5d-40b4966ba9fe
+11-06 10:32:07.860 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280559,73.010645 hAcc=9 et=+10h52m59s386ms alt=206.90000915527344 vel=1.9602571E-7 bear=180.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 55ms, time: 1573016529000
+
+11-06 10:32:07.880 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:32:07.889 DEBUG [TSLocationManager a] 10.523
+11-06 10:32:07.899 DEBUG [TSLocationManager a] 20.448301
+11-06 10:32:07.931 INFO [c persist] 
+  ✅  INSERT: 0b30fb33-295c-4afe-abf6-be5433e757f5
+11-06 10:32:18.776 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280552,73.010649 hAcc=8 et=+10h53m10s330ms alt=206.90000915527344 vel=0.10985691 bear=178.14925 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 32ms, time: 1573016540000
+
+11-06 10:32:18.788 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:32:18.796 DEBUG [TSLocationManager a] 10.923
+11-06 10:32:18.806 DEBUG [TSLocationManager a] 21.330029
+11-06 10:32:18.838 INFO [c persist] 
+  ✅  INSERT: f0e2309b-22e9-4b81-abb0-627fc3639e24
+11-06 10:32:19.300 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] still (100%)
+11-06 10:32:19.330 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] 
+  ℹ️  Waiting for stopTimeout (15 min): elapsed min: 1
+11-06 10:32:28.931 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280547,73.010643 hAcc=7 et=+10h53m20s452ms alt=206.90000915527344 vel=0.1311319 bear=163.1948 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 57ms, time: 1573016550000
+
+11-06 10:32:28.950 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:32:28.957 DEBUG [TSLocationManager a] 11.323
+11-06 10:32:28.967 DEBUG [TSLocationManager a] 22.120611
+11-06 10:32:29.000 INFO [c persist] 
+  ✅  INSERT: 92eac7be-df39-47ef-ad2c-63741ecda936
+11-06 10:32:39.791 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280560,73.010648 hAcc=7 et=+10h53m31s334ms alt=206.90000915527344 vel=0.3966064 bear=344.92126 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 38ms, time: 1573016561000
+
+11-06 10:32:39.813 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:32:39.829 DEBUG [TSLocationManager a] 10.253
+11-06 10:32:39.839 DEBUG [TSLocationManager a] 23.67177
+11-06 10:32:39.890 INFO [c persist] 
+  ✅  INSERT: 5b50f101-9008-4ddd-89b0-1e36996f371a
+11-06 10:32:49.870 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280566,73.010633 hAcc=7 et=+10h53m41s404ms alt=206.90000915527344 vel=0.0145462835 bear=180.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 47ms, time: 1573016571000
+
+11-06 10:32:49.889 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:32:49.896 DEBUG [TSLocationManager a] 8.096
+11-06 10:32:49.907 DEBUG [TSLocationManager a] 25.303558
+11-06 10:32:49.936 INFO [c persist] 
+  ✅  INSERT: 649476da-aa03-4e8f-9ab8-26633980a089
+11-06 10:33:00.933 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280566,73.010632 hAcc=7 et=+10h53m52s448ms alt=207.60000610351562 vel=3.970593E-6 bear=180.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 57ms, time: 1573016582000
+
+11-06 10:33:00.952 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:33:00.961 DEBUG [TSLocationManager a] 8.096
+11-06 10:33:00.972 DEBUG [TSLocationManager a] 25.335505
+11-06 10:33:01.001 INFO [c persist] 
+  ✅  INSERT: e6bf43ec-4390-430a-8014-af36d7aee8bd
+11-06 10:33:11.899 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280549,73.010620 hAcc=6 et=+10h54m3s435ms alt=206.90000915527344 vel=0.0025133651 bear=180.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 41ms, time: 1573016593000
+
+11-06 10:33:11.923 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:33:11.932 DEBUG [TSLocationManager a] 9.2
+11-06 10:33:11.942 DEBUG [TSLocationManager a] 27.602804
+11-06 10:33:11.961 INFO [c persist] 
+  ✅  INSERT: 61030952-3768-437f-b1dc-aafb54f6784f
+11-06 10:33:22.856 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280552,73.010568 hAcc=8 et=+10h54m14s388ms alt=206.90000915527344 vel=0.47129124 bear=274.52216 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 54ms, time: 1573016604000
+
+11-06 10:33:22.870 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:33:22.877 DEBUG [TSLocationManager a] 8.068
+11-06 10:33:22.887 DEBUG [TSLocationManager a] 32.837738
+11-06 10:33:22.932 INFO [c persist] 
+  ✅  INSERT: bfa0641d-f0be-4a18-96d1-fe794f759def
+11-06 10:33:32.884 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280554,73.010566 hAcc=9 et=+10h54m24s407ms alt=206.90000915527344 vel=7.414092E-4 bear=180.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 58ms, time: 1573016614000
+
+11-06 10:33:32.900 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:33:32.909 DEBUG [TSLocationManager a] 9.2
+11-06 10:33:32.918 DEBUG [TSLocationManager a] 33.152878
+11-06 10:33:32.959 INFO [c persist] 
+  ✅  INSERT: 9b171169-6943-44a1-b6d6-b1c0f5900ae5
+11-06 10:33:42.898 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280580,73.010556 hAcc=9 et=+10h54m34s428ms alt=206.90000915527344 vel=0.11013405 bear=290.3448 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 52ms, time: 1573016624000
+
+11-06 10:33:42.915 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:33:42.922 DEBUG [TSLocationManager a] 8.787
+11-06 10:33:42.933 DEBUG [TSLocationManager a] 36.181534
+11-06 10:33:42.972 INFO [c persist] 
+  ✅  INSERT: 3a605f86-9e15-4b4a-8de4-ba1d2cef43ad
+11-06 10:33:53.827 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280590,73.010545 hAcc=7 et=+10h54m45s351ms alt=207.60000610351562 vel=0.12341574 bear=200.51027 vAcc=2 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 59ms, time: 1573016635000
+
+11-06 10:33:53.848 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:33:53.859 DEBUG [TSLocationManager a] 8.787
+11-06 10:33:53.870 DEBUG [TSLocationManager a] 37.765614
+11-06 10:33:53.905 INFO [c persist] 
+  ✅  INSERT: 04c91bae-5f31-48cd-9505-1f3f34fdc62a
+11-06 10:34:04.790 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280595,73.010532 hAcc=23 et=+10h54m56s338ms alt=206.90000915527344 vel=0.07442669 bear=0.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 39ms, time: 1573016646000
+
+11-06 10:34:04.808 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:34:04.817 DEBUG [TSLocationManager a] 8.096
+11-06 10:34:04.827 DEBUG [TSLocationManager a] 39.177124
+11-06 10:34:04.859 INFO [c persist] 
+  ✅  INSERT: a2eab17e-673e-458e-93b5-edaada0c60af
+11-06 10:34:14.833 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280605,73.010496 hAcc=9 et=+10h55m6s360ms alt=207.60000610351562 vel=0.06705831 bear=233.87292 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 49ms, time: 1573016656000
+
+11-06 10:34:14.851 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:34:14.859 DEBUG [TSLocationManager a] 8.068
+11-06 10:34:14.867 DEBUG [TSLocationManager a] 42.92708
+11-06 10:34:14.891 INFO [c persist] 
+  ✅  INSERT: 112fb199-9ee1-4e99-b2ca-f4839756b3e6
+11-06 10:34:25.823 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280618,73.010499 hAcc=9 et=+10h55m17s366ms alt=207.60000610351562 vel=6.595877E-5 bear=0.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 43ms, time: 1573016667000
+
+11-06 10:34:25.838 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:34:25.845 DEBUG [TSLocationManager a] 7.083
+11-06 10:34:25.853 DEBUG [TSLocationManager a] 44.385582
+11-06 10:34:25.887 INFO [c persist] 
+  ✅  INSERT: 40dac016-0edc-4a09-bc04-09e382c0633a
+11-06 10:34:36.823 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280603,73.010504 hAcc=9 et=+10h55m28s365ms alt=206.90000915527344 vel=0.41578513 bear=134.20988 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 43ms, time: 1573016678000
+
+11-06 10:34:36.841 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:34:36.847 DEBUG [TSLocationManager a] 8.833
+11-06 10:34:36.855 DEBUG [TSLocationManager a] 46.13508
+11-06 10:34:36.879 INFO [c persist] 
+  ✅  INSERT: 783cf771-ac99-4e3f-9458-8c29af7af0e8
+11-06 10:34:47.483 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280577,73.010519 hAcc=9 et=+10h55m38s924ms alt=206.90000915527344 vel=0.10144768 bear=180.0 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[mParcelledData.dataSize=52]}], age: 139ms, time: 1573016687333
+
+11-06 10:34:47.505 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:34:47.514 DEBUG [TSLocationManager a] 8.509
+11-06 10:34:47.523 DEBUG [TSLocationManager a] 49.316113
+11-06 10:34:47.546 INFO [c persist] 
+  ✅  INSERT: 21dd1441-562a-4a2f-b7f5-156e94dccd41
+11-06 10:34:57.767 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280573,73.010525 hAcc=8 et=+10h55m49s305ms alt=206.90000915527344 vel=0.24992129 bear=145.10852 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 43ms, time: 1573016699000
+
+11-06 10:34:57.787 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:34:57.799 DEBUG [TSLocationManager a] 8.798
+11-06 10:34:57.808 DEBUG [TSLocationManager a] 50.104218
+11-06 10:34:57.834 INFO [c persist] 
+  ✅  INSERT: 486aa068-12b0-4e8f-9b97-6b17e7136c50
+11-06 10:35:07.771 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280552,73.010569 hAcc=9 et=+10h55m59s310ms alt=206.90000915527344 vel=0.9851362 bear=114.55098 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 48ms, time: 1573016709000
+
+11-06 10:35:07.784 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:35:07.793 DEBUG [TSLocationManager a] 9.105
+11-06 10:35:07.802 DEBUG [TSLocationManager a] 55.032074
+11-06 10:35:07.818 INFO [c persist] 
+  ✅  INSERT: bac34e76-cbe4-44f9-aacf-8bfdbf21ecd3
+11-06 10:35:17.784 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280550,73.010587 hAcc=9 et=+10h56m9s317ms alt=206.90000915527344 vel=0.009002739 bear=180.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 47ms, time: 1573016719000
+
+11-06 10:35:17.800 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:35:17.810 DEBUG [TSLocationManager a] 8.975
+11-06 10:35:17.821 DEBUG [TSLocationManager a] 56.85646
+11-06 10:35:17.844 INFO [c persist] 
+  ✅  INSERT: 32da257a-f22e-46be-9e1c-54bc83839ead
+11-06 10:35:27.847 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280560,73.010587 hAcc=8 et=+10h56m19s378ms alt=207.60000610351562 vel=0.5303587 bear=9.033772 vAcc=2 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 57ms, time: 1573016729000
+
+11-06 10:35:27.859 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:35:27.868 DEBUG [TSLocationManager a] 8.2
+11-06 10:35:27.876 DEBUG [TSLocationManager a] 57.95494
+11-06 10:35:27.892 INFO [c persist] 
+  ✅  INSERT: 6d67bdc9-f449-4912-b20e-72fa39f708dd
+11-06 10:35:37.869 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280570,73.010565 hAcc=7 et=+10h56m29s396ms alt=206.90000915527344 vel=0.1077359 bear=210.97916 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 57ms, time: 1573016739000
+
+11-06 10:35:37.886 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:35:37.894 DEBUG [TSLocationManager a] 7.7
+11-06 10:35:37.903 DEBUG [TSLocationManager a] 60.462627
+11-06 10:35:37.926 INFO [c persist] 
+  ✅  INSERT: 3415f3a9-4649-4766-a325-dc110ea306af
+11-06 10:35:48.750 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280585,73.010617 hAcc=23 et=+10h56m40s308ms alt=206.90000915527344 vel=0.24468048 bear=0.64328635 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 30ms, time: 1573016750000
+
+11-06 10:35:48.763 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:35:48.771 DEBUG [TSLocationManager a] 7.4
+11-06 10:35:48.780 DEBUG [TSLocationManager a] 65.93475
+11-06 10:35:48.803 INFO [c persist] 
+  ✅  INSERT: b0376097-d5f2-4c08-9097-16cbb23702c2
+11-06 10:35:58.808 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280591,73.010609 hAcc=10 et=+10h56m50s329ms alt=206.90000915527344 vel=1.4030991 bear=281.00418 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 59ms, time: 1573016760000
+
+11-06 10:35:58.826 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:35:58.833 DEBUG [TSLocationManager a] 7.4
+11-06 10:35:58.842 DEBUG [TSLocationManager a] 67.01988
+11-06 10:35:58.861 INFO [c persist] 
+  ✅  INSERT: 4689cf54-ac97-486a-9a00-8e4d98da85c1
+11-06 10:36:08.803 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280618,73.010572 hAcc=11 et=+10h57m0s352ms alt=207.60000610351562 vel=0.29364306 bear=130.75624 vAcc=2 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 37ms, time: 1573016770000
+
+11-06 10:36:08.817 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:36:08.825 DEBUG [TSLocationManager a] 9.414
+11-06 10:36:08.833 DEBUG [TSLocationManager a] 71.73796
+11-06 10:36:08.850 INFO [c persist] 
+  ✅  INSERT: 81953d3c-da1e-48a8-9647-02f6a27f1be4
+11-06 10:36:18.875 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280582,73.010643 hAcc=10 et=+10h57m10s408ms alt=207.60000610351562 vel=0.13382675 bear=180.0 vAcc=2 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 49ms, time: 1573016780000
+
+11-06 10:36:18.896 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:36:18.907 DEBUG [TSLocationManager a] 9.386
+11-06 10:36:18.916 DEBUG [TSLocationManager a] 79.87132
+11-06 10:36:18.941 INFO [c persist] 
+  ✅  INSERT: c8c05395-fe49-494f-8b88-7c0124f7046c
+11-06 10:36:29.845 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280583,73.010647 hAcc=9 et=+10h57m21s379ms alt=206.90000915527344 vel=8.203134E-5 bear=0.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 47ms, time: 1573016791000
+
+11-06 10:36:29.863 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:36:29.874 DEBUG [TSLocationManager a] 8.882
+11-06 10:36:29.886 DEBUG [TSLocationManager a] 80.22852
+11-06 10:36:29.910 INFO [c persist] 
+  ✅  INSERT: 079a3dbe-4017-4f4b-87b5-3ede2c069ae1
+11-06 10:36:40.828 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280559,73.010613 hAcc=9 et=+10h57m32s361ms alt=206.90000915527344 vel=0.17514372 bear=339.4454 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 50ms, time: 1573016802000
+
+11-06 10:36:40.873 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:36:40.887 DEBUG [TSLocationManager a] 9.136
+11-06 10:36:40.904 DEBUG [TSLocationManager a] 84.47894
+11-06 10:36:40.932 INFO [c persist] 
+  ✅  INSERT: 97ce3178-5e87-40c3-af6c-c2a9885ee866
+11-06 10:36:50.880 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280559,73.010607 hAcc=9 et=+10h57m42s423ms alt=206.90000915527344 vel=0.002880477 bear=180.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 40ms, time: 1573016812000
+
+11-06 10:36:50.900 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:36:50.912 DEBUG [TSLocationManager a] 9.083
+11-06 10:36:50.920 DEBUG [TSLocationManager a] 85.10617
+11-06 10:36:50.951 INFO [c persist] 
+  ✅  INSERT: 94886633-39f0-4cba-8134-797fb9b5ba27
+11-06 10:37:00.892 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280613,73.010579 hAcc=9 et=+10h57m52s427ms alt=206.90000915527344 vel=0.29661292 bear=34.00067 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 47ms, time: 1573016822000
+
+11-06 10:37:00.913 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:37:00.922 DEBUG [TSLocationManager a] 10.166
+11-06 10:37:00.931 DEBUG [TSLocationManager a] 91.748886
+11-06 10:37:00.949 INFO [c persist] 
+  ✅  INSERT: 810a791a-4569-4dbd-a5fb-8c8b8803c8b5
+11-06 10:37:11.862 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280595,73.010647 hAcc=10 et=+10h58m3s401ms alt=207.60000610351562 vel=0.21953379 bear=180.0 vAcc=2 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 47ms, time: 1573016833000
+
+11-06 10:37:11.876 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:37:11.884 DEBUG [TSLocationManager a] 9.083
+11-06 10:37:11.893 DEBUG [TSLocationManager a] 98.84008
+11-06 10:37:11.917 INFO [c persist] 
+  ✅  INSERT: a044aa79-523f-4604-bb30-a2e105118404
+11-06 10:37:21.864 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280561,73.010690 hAcc=11 et=+10h58m13s406ms alt=207.60000610351562 vel=0.4464827 bear=143.45815 vAcc=2 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 38ms, time: 1573016843000
+
+11-06 10:37:21.882 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:37:21.889 DEBUG [TSLocationManager a] 9.478
+11-06 10:37:21.897 DEBUG [TSLocationManager a] 104.53752
+11-06 10:37:21.922 INFO [c persist] 
+  ✅  INSERT: e21f68e9-2864-4bef-adf7-07a2d39aef0e
+11-06 10:37:31.874 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280539,73.010704 hAcc=10 et=+10h58m23s424ms alt=206.90000915527344 vel=0.098114535 bear=270.00604 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 37ms, time: 1573016853000
+
+11-06 10:37:31.887 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:37:31.894 DEBUG [TSLocationManager a] 10.673
+11-06 10:37:31.904 DEBUG [TSLocationManager a] 107.33795
+11-06 10:37:31.930 INFO [c persist] 
+  ✅  INSERT: a5f0bba1-24aa-474a-b28f-11759dec0966
+11-06 10:37:45.305 INFO [TSConfig print] 
+╔═════════════════════════════════════════════
+║ TSLocationManager version: 2.12.13 (269)
+╠═════════════════════════════════════════════
+{
+  "activityRecognitionInterval": 10000,
+  "allowIdenticalLocations": false,
+  "autoSync": true,
+  "autoSyncThreshold": 0,
+  "batchSync": false,
+  "debug": true,
+  "deferTime": 0,
+  "desiredAccuracy": 0,
+  "desiredOdometerAccuracy": 100,
+  "disableElasticity": false,
+  "disableStopDetection": false,
+  "distanceFilter": 0,
+  "elasticityMultiplier": 1,
+  "enableHeadless": true,
+  "extras": {},
+  "fastestLocationUpdateInterval": 10000,
+  "forceReloadOnBoot": false,
+  "forceReloadOnGeofence": false,
+  "forceReloadOnHeartbeat": false,
+  "forceReloadOnLocationChange": false,
+  "forceReloadOnMotionChange": false,
+  "forceReloadOnSchedule": false,
+  "foregroundService": true,
+  "geofenceInitialTriggerEntry": true,
+  "geofenceProximityRadius": 1000,
+  "geofenceTemplate": "",
+  "headers": {},
+  "headlessJobService": "com.transistorsoft.cordova.bggeo.HeadlessJobService",
+  "heartbeatInterval": 60,
+  "httpRootProperty": "location",
+  "httpTimeout": 60000,
+  "isMoving": true,
+  "locationTemplate": "",
+  "locationTimeout": 60,
+  "locationUpdateInterval": 1000,
+  "locationsOrderDirection": "ASC",
+  "logLevel": 5,
+  "logMaxDays": 3,
+  "maxBatchSize": -1,
+  "maxDaysToPersist": 1,
+  "maxRecordsToPersist": -1,
+  "method": "POST",
+  "minimumActivityRecognitionConfidence": 75,
+  "notificationColor": "",
+  "notificationLargeIcon": "",
+  "notificationPriority": 0,
+  "notificationSmallIcon": "",
+  "notificationText": "Location Service activated",
+  "notificationTitle": "",
+  "params": {},
+  "persist": true,
+  "schedule": [],
+  "startOnBoot": true,
+  "stationaryRadius": 25,
+  "stopAfterElapsedMinutes": 0,
+  "stopOnStationary": false,
+  "stopOnTerminate": false,
+  "stopTimeout": 15,
+  "triggerActivities": "in_vehicle, on_bicycle, on_foot, running, walking",
+  "url": "",
+  "enabled": true,
+  "schedulerEnabled": false,
+  "trackingMode": 1,
+  "odometer": 107.33795166015625,
+  "isFirstBoot": false
+}
+╔═════════════════════════════════════════════
+║ DEVICE SENSORS
+╠═════════════════════════════════════════════
+╟─ ✅  ACCELEROMETER: {Sensor name="ICM42605M Accelerometer", vendor="InvenSense", version=1, type=1, maxRange=78.4532, resolution=0.0023942017, power=0.25, minDelay=2000}
+╟─ ✅  GYROSCOPE: {Sensor name="ICM42605M Gyroscope", vendor="InvenSense", version=1, type=4, maxRange=17.453293, resolution=5.326322E-4, power=6.1, minDelay=2000}
+╟─ ✅  MAGNETOMETER: {Sensor name="AK09918 Magnetometer", vendor="Asahi Kasei Microdevices", version=1, type=2, maxRange=2000.0, resolution=0.06, power=6.0, minDelay=8000}
+╟─ ✅  SIGNIFICANT_MOTION: {Sensor name="Samsung Significant Motion", vendor="Samsung Inc.", version=2, type=17, maxRange=1.0, resolution=1.0, power=0.3, minDelay=-1}
+╚═════════════════════════════════════════════
+11-06 10:37:45.350 INFO [BackgroundGeolocation <init>] 
+  ✅  Google Play Services: connected (version code:12451000)
+11-06 10:37:45.385 DEBUG [c a] 
+  ✅  Opened database
+11-06 10:37:45.405 DEBUG [c prune] 
+  ℹ️  PRUNE -1 days
+11-06 10:37:45.415 INFO [BootReceiver onReceive] 
+╔═════════════════════════════════════════════
+║ BootReceiver: com.ionicframework.maprouter
+╠═════════════════════════════════════════════
+╟─ android.intent.action.MY_PACKAGE_REPLACED
+
+11-06 10:37:45.462 DEBUG [a f] 
+  ✅  Opened database
+11-06 10:37:45.507 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:37:45.516 INFO [BackgroundGeolocationService onStartCommand] 
+╔═════════════════════════════════════════════
+║ BackgroundGeolocation Service started
+╠═════════════════════════════════════════════
+
+11-06 10:37:45.533 DEBUG [BackgroundGeolocation ready] LocationPermission :true
+11-06 10:37:45.537 INFO [BackgroundGeolocationService d] 
+  ✅  Started in foreground
+11-06 10:37:45.551 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:37:45.554 INFO [BackgroundGeolocationService k] 
+  🔴  Stop heartbeat
+11-06 10:37:45.575 INFO [BackgroundGeolocationService k] 
+  🔴  Stop heartbeat
+11-06 10:37:45.576 INFO [ActivityRecognitionService a] 
+  🎾  Start activity updates: 10000
+11-06 10:37:45.579 INFO [BackgroundGeolocationService a] 
+  🔵  setPace: null → true
+11-06 10:37:45.600 INFO [BackgroundGeolocationService k] 
+  🔴  Stop heartbeat
+11-06 10:37:45.603 DEBUG [TSConfig c] ℹ️   Persist config
+11-06 10:37:45.607 INFO [BackgroundGeolocationService a] 
+  🔵  setPace: true → true
+11-06 10:37:45.613 INFO [BackgroundGeolocationService a] 
+  🔵  setPace: true → true
+11-06 10:37:45.622 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:37:45.629 DEBUG [TSConfig c] ℹ️   Persist config
+11-06 10:37:45.644 DEBUG [TSConfig c] ℹ️   Persist config
+11-06 10:37:45.676 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:37:45.687 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:37:45.743 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] still (100%)
+11-06 10:37:45.791 INFO [BackgroundGeolocationService onActivityRecognitionResult] 
+  🔵  Stop-timeout timer initiated (15 min)...
+11-06 10:37:45.819 INFO [BackgroundGeolocationService h] 
+  🔵  Begin stop timer
+11-06 10:37:45.863 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:37:45.900 WARN [BackgroundGeolocation$24 onPermissionGranted] 
+  ⚠️  Already started.  Ignored
+11-06 10:37:47.686 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 3
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280580,73.010622 hAcc=99 et=+10h58m39s119ms alt=206.90000915527344 vel=0.5731672 bear=286.53098 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[{requestId=3, verticalAccuracy=6.699997}]}], age: 149ms, time: 1573016867528
+
+11-06 10:37:47.689 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:47.708 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 2
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280580,73.010622 hAcc=99 et=+10h58m39s119ms alt=206.90000915527344 vel=0.5731672 bear=286.53098 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[{requestId=2, verticalAccuracy=6.699997}]}], age: 176ms, time: 1573016867528
+
+11-06 10:37:47.713 DEBUG [TSLocationManager a] 107.33795
+11-06 10:37:47.728 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 1
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280580,73.010622 hAcc=99 et=+10h58m39s119ms alt=206.90000915527344 vel=0.5731672 bear=286.53098 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[{requestId=1, verticalAccuracy=6.699997}]}], age: 196ms, time: 1573016867528
+
+11-06 10:37:47.753 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:47.761 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 4
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280580,73.010622 hAcc=99 et=+10h58m39s119ms alt=206.90000915527344 vel=0.5731672 bear=286.53098 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[{requestId=4, verticalAccuracy=6.699997}]}], age: 229ms, time: 1573016867528
+
+11-06 10:37:47.765 DEBUG [TSLocationManager a] 107.33795
+11-06 10:37:47.796 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:47.821 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:47.834 DEBUG [TSLocationManager a] 107.33795
+11-06 10:37:52.768 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 3
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280580,73.010622 hAcc=99 et=+10h58m44s304ms alt=206.90000915527344 vel=0.5731672 bear=286.53098 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[{requestId=3, verticalAccuracy=6.699997}]}], age: 42ms, time: 1573016872713
+
+11-06 10:37:52.770 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:52.800 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 2
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280580,73.010622 hAcc=99 et=+10h58m44s304ms alt=206.90000915527344 vel=0.5731672 bear=286.53098 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[{requestId=2, verticalAccuracy=6.699997}]}], age: 80ms, time: 1573016872713
+
+11-06 10:37:52.807 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:52.814 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 1
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280580,73.010622 hAcc=99 et=+10h58m44s304ms alt=206.90000915527344 vel=0.5731672 bear=286.53098 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[{requestId=1, verticalAccuracy=6.699997}]}], age: 98ms, time: 1573016872713
+
+11-06 10:37:52.823 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:52.837 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 4
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280580,73.010622 hAcc=99 et=+10h58m44s304ms alt=206.90000915527344 vel=0.5731672 bear=286.53098 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[{requestId=4, verticalAccuracy=6.699997}]}], age: 122ms, time: 1573016872713
+
+11-06 10:37:52.837 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:53.681 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 3
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280545,73.010719 hAcc=23 et=+10h58m45s89ms alt=206.90000915527344 vel=0.6378164 bear=118.59654 vAcc=7 sAcc=??? bAcc=??? {Bundle[{requestId=3, verticalAccuracy=6.699997}]}], age: 180ms, time: 1573016873497
+
+11-06 10:37:53.685 INFO [TSLocationManager onSingleLocationResult] 
+  🔵  Acquired motionchange position, isMoving: true
+11-06 10:37:53.700 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 2
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280545,73.010719 hAcc=23 et=+10h58m45s89ms alt=206.90000915527344 vel=0.6378164 bear=118.59654 vAcc=7 sAcc=??? bAcc=??? {Bundle[{requestId=2, verticalAccuracy=6.699997}]}], age: 199ms, time: 1573016873497
+
+11-06 10:37:53.708 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:53.718 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 1
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280545,73.010719 hAcc=23 et=+10h58m45s89ms alt=206.90000915527344 vel=0.6378164 bear=118.59654 vAcc=7 sAcc=??? bAcc=??? {Bundle[{requestId=1, verticalAccuracy=6.699997}]}], age: 219ms, time: 1573016873497
+
+11-06 10:37:53.723 DEBUG [TSLocationManager a] 117.751816
+11-06 10:37:53.733 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 4
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280545,73.010719 hAcc=23 et=+10h58m45s89ms alt=206.90000915527344 vel=0.6378164 bear=118.59654 vAcc=7 sAcc=??? bAcc=??? {Bundle[{requestId=4, verticalAccuracy=6.699997}]}], age: 233ms, time: 1573016873497
+
+11-06 10:37:53.746 INFO [TSLocationManager requestLocationUpdates] 
+  🎾  Location-services: ON
+11-06 10:37:53.755 DEBUG [TSConfig translateDesiredAccuracy] translateDesiredAccuracy (true): 0
+11-06 10:37:53.766 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] still (100%)
+11-06 10:37:53.767 INFO [TSLocationManager onSingleLocationResult] 
+  🔵  Acquired motionchange position, isMoving: true
+11-06 10:37:53.776 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] 
+  ℹ️  Waiting for stopTimeout (15 min): elapsed min: 0
+11-06 10:37:53.779 INFO [c persist] 
+  ✅  INSERT: aac228ff-ac01-456c-93e0-38bd4051caf9
+11-06 10:37:53.780 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:53.805 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280545,73.010719 hAcc=23 et=+10h58m45s379ms alt=206.90000915527344 vel=0.6378164 bear=118.59654 vAcc=7 sAcc=??? bAcc=??? {Bundle[mParcelledData.dataSize=52]}], age: 15ms, time: 1573016873787
+
+11-06 10:37:53.815 DEBUG [TSLocationManager a] 117.751816
+11-06 10:37:53.821 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:37:53.835 DEBUG [TSLocationManager onLocationResult] 
+  ℹ️  IGNORED: same as last location
+11-06 10:37:53.841 INFO [TSLocationManager d] 
+  🔴  Location-services: OFF
+11-06 10:37:53.845 INFO [LocationService onLocation] 
+  ℹ️  Location availability: true
+11-06 10:37:53.850 INFO [TSLocationManager requestLocationUpdates] 
+  🎾  Location-services: ON
+11-06 10:37:53.867 DEBUG [TSConfig translateDesiredAccuracy] translateDesiredAccuracy (true): 0
+11-06 10:37:53.879 DEBUG [BackgroundGeolocation$h$1 onSuccess] StartTask success
+11-06 10:37:53.880 INFO [TSLocationManager onSingleLocationResult] 
+  🔵  Acquired providerchange position
+11-06 10:37:53.885 INFO [c persist] 
+  ✅  INSERT: 798521f2-27d8-430b-b6ec-c527b6780478
+11-06 10:37:53.891 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] still (100%)
+11-06 10:37:53.896 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:53.922 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] 
+  ℹ️  Waiting for stopTimeout (15 min): elapsed min: 0
+11-06 10:37:53.925 DEBUG [TSLocationManager a] 117.751816
+11-06 10:37:53.953 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280545,73.010719 hAcc=23 et=+10h58m45s499ms alt=206.90000915527344 vel=0.6378164 bear=118.59654 vAcc=7 sAcc=??? bAcc=??? {Bundle[mParcelledData.dataSize=52]}], age: 44ms, time: 1573016873907
+
+11-06 10:37:53.955 INFO [TSLocationManager onSingleLocationResult] 
+  🔵  Acquired motionchange position, isMoving: true
+11-06 10:37:53.960 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:37:53.963 INFO [c persist] 
+  ✅  INSERT: c55f1d6c-91cc-4a0e-ae4f-64300427e7d6
+11-06 10:37:53.968 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:53.978 DEBUG [TSLocationManager onLocationResult] 
+  ℹ️  IGNORED: same as last location
+11-06 10:37:53.995 DEBUG [TSLocationManager a] 117.751816
+11-06 10:37:54.004 INFO [LocationService onLocation] 
+  ℹ️  Location availability: true
+11-06 10:37:54.025 INFO [TSLocationManager d] 
+  🔴  Location-services: OFF
+11-06 10:37:54.033 INFO [TSLocationManager requestLocationUpdates] 
+  🎾  Location-services: ON
+11-06 10:37:54.042 DEBUG [TSConfig translateDesiredAccuracy] translateDesiredAccuracy (true): 0
+11-06 10:37:54.053 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] still (100%)
+11-06 10:37:54.054 INFO [c persist] 
+  ✅  INSERT: bd9adec7-658b-468c-9cbd-98dc3b79a94f
+11-06 10:37:54.080 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] 
+  ℹ️  Waiting for stopTimeout (15 min): elapsed min: 0
+11-06 10:37:54.147 INFO [LocationService onLocation] 
+  ℹ️  Location availability: true
+11-06 10:37:56.132 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280530,73.010726 hAcc=25 et=+10h58m47s545ms alt=206.90000915527344 vel=0.6415234 bear=133.64693 vAcc=7 sAcc=??? bAcc=??? {Bundle[mParcelledData.dataSize=52]}], age: 169ms, time: 1573016875953
+
+11-06 10:37:56.150 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:37:56.159 DEBUG [TSLocationManager a] 98.89
+11-06 10:37:56.168 DEBUG [TSLocationManager a] 119.58167
+11-06 10:37:56.188 INFO [c persist] 
+  ✅  INSERT: 713e69e2-28ad-4efb-8944-f61a9f55951c
+11-06 10:38:06.618 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280684,73.010574 hAcc=35 et=+10h58m58s10ms alt=206.90000915527344 vel=1.1732485 bear=6.933081 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[mParcelledData.dataSize=52]}], age: 190ms, time: 1573016886418
+
+11-06 10:38:06.634 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:38:06.641 DEBUG [TSLocationManager a] 34.511
+11-06 10:38:06.653 DEBUG [TSLocationManager a] 142.44325
+11-06 10:38:06.680 INFO [c persist] 
+  ✅  INSERT: 19782d54-b8d7-4407-9f52-a325535b8736
+11-06 10:38:16.782 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280673,73.010564 hAcc=19 et=+10h59m8s335ms alt=207.60000610351562 vel=0.17837486 bear=312.4653 vAcc=2 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 31ms, time: 1573016898000
+
+11-06 10:38:16.799 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:38:16.811 DEBUG [TSLocationManager a] 24.663
+11-06 10:38:16.820 DEBUG [TSLocationManager a] 143.96417
+11-06 10:38:16.845 INFO [c persist] 
+  ✅  INSERT: 72a4207f-a204-4afc-95e6-64a0d08d61e6
+11-06 10:38:26.821 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280681,73.010574 hAcc=14 et=+10h59m18s369ms alt=206.90000915527344 vel=0.1774616 bear=0.0 vAcc=7 sAcc=20 bAcc=10 {Bundle[mParcelledData.dataSize=52]}], age: 32ms, time: 1573016908000
+
+11-06 10:38:26.838 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:38:26.847 DEBUG [TSLocationManager a] 23.279
+11-06 10:38:26.855 DEBUG [TSLocationManager a] 145.27063
+11-06 10:38:26.877 INFO [c persist] 
+  ✅  INSERT: 89a32021-9aa8-4aa4-80ca-7c0156d74183
+11-06 10:38:35.316 INFO [TSLocationManager d] 
+  🔴  Location-services: OFF
+11-06 10:38:35.329 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:38:35.350 DEBUG [BackgroundGeolocationService i] 
+11-06 10:38:35.378 INFO [BackgroundGeolocationService k] 
+  🔴  Stop heartbeat
+11-06 10:38:35.403 INFO [BackgroundGeolocationService a] 
+  🔵  setPace: true → true
+11-06 10:38:35.410 DEBUG [TSConfig c] ℹ️   Persist config
+11-06 10:38:35.421 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:38:37.582 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 5
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280680,73.010578 hAcc=20 et=+10h59m29s19ms alt=207.60000610351562 vel=0.0151895955 bear=102.08847 vAcc=2 sAcc=-1 bAcc=-1 {Bundle[{requestId=5, verticalAccuracy=2.0}]}], age: 148ms, time: 1573016917427
+
+11-06 10:38:37.584 INFO [TSLocationManager onSingleLocationResult] 
+  🔵  Acquired current position
+11-06 10:38:37.603 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 6
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280680,73.010578 hAcc=20 et=+10h59m29s19ms alt=207.60000610351562 vel=0.0151895955 bear=102.08847 vAcc=2 sAcc=-1 bAcc=-1 {Bundle[{requestId=6, verticalAccuracy=2.0}]}], age: 172ms, time: 1573016917427
+
+11-06 10:38:37.607 DEBUG [TSLocationManager a] 23.279
+11-06 10:38:37.633 DEBUG [TSLocationManager a] 145.68523
+11-06 10:38:37.652 INFO [TSLocationManager onSingleLocationResult] 
+  🔵  Acquired motionchange position, isMoving: true
+11-06 10:38:37.655 INFO [c persist] 
+  ✅  INSERT: 771080e1-e6ad-4862-bf58-17d981395bfc
+11-06 10:38:37.660 DEBUG [TSLocationManager a] 23.279
+11-06 10:38:37.678 DEBUG [TSLocationManager a] 145.68523
+11-06 10:38:37.697 INFO [TSLocationManager requestLocationUpdates] 
+  🎾  Location-services: ON
+11-06 10:38:37.706 DEBUG [TSConfig translateDesiredAccuracy] translateDesiredAccuracy (true): 0
+11-06 10:38:37.715 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] still (100%)
+11-06 10:38:37.726 INFO [c persist] 
+  ✅  INSERT: 38892c69-d119-44fd-aa4c-f7d8e21e3778
+11-06 10:38:37.732 INFO [BackgroundGeolocationService onActivityRecognitionResult] 
+  🔵  Stop-timeout timer initiated (15 min)...
+11-06 10:38:37.762 INFO [BackgroundGeolocationService h] 
+  🔵  Begin stop timer
+11-06 10:38:37.798 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280680,73.010578 hAcc=20 et=+10h59m29s347ms alt=207.60000610351562 vel=0.0151895955 bear=102.08847 vAcc=2 sAcc=-1 bAcc=-1 {Bundle[mParcelledData.dataSize=52]}], age: 41ms, time: 1573016917756
+
+11-06 10:38:37.813 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:38:37.820 DEBUG [TSLocationManager onLocationResult] 
+  ℹ️  IGNORED: same as last location
+11-06 10:38:37.828 INFO [BackgroundGeolocationService onLocationResult] 
+  ℹ️  Distance from stoppedAtLocation: -39.646
+11-06 10:38:37.834 INFO [LocationService onLocation] 
+  ℹ️  Location availability: true
+11-06 10:38:38.295 INFO [TSLocationManager d] 
+  🔴  Location-services: OFF
+11-06 10:38:38.321 DEBUG [BackgroundGeolocationService i] 
+11-06 10:38:38.335 INFO [BackgroundGeolocationService k] 
+  🔴  Stop heartbeat
+11-06 10:38:38.352 INFO [BackgroundGeolocationService a] 
+  🔵  setPace: true → true
+11-06 10:38:38.364 DEBUG [TSConfig c] ℹ️   Persist config
+11-06 10:38:38.388 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:38:40.662 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 8
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280680,73.010578 hAcc=66 et=+10h59m32s61ms alt=206.90000915527344 vel=0.012515731 bear=101.24016 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[{requestId=8, verticalAccuracy=6.699997}]}], age: 170ms, time: 1573016920469
+
+11-06 10:38:40.664 DEBUG [TSLocationManager a] 23.279
+11-06 10:38:40.689 DEBUG [TSLocationManager a] 145.7152
+11-06 10:38:45.785 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 8
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280549,73.010717 hAcc=23 et=+10h59m37s211ms alt=207.60000610351562 vel=2.1342478 bear=136.34131 vAcc=7 sAcc=??? bAcc=??? {Bundle[{requestId=8, verticalAccuracy=6.699997}]}], age: 158ms, time: 1573016925619
+
+11-06 10:38:45.790 INFO [TSLocationManager onSingleLocationResult] 
+  🔵  Acquired motionchange position, isMoving: true
+11-06 10:38:45.810 DEBUG [TSLocationManager a] 23.279
+11-06 10:38:45.818 DEBUG [TSLocationManager a] 165.82497
+11-06 10:38:45.838 INFO [TSLocationManager requestLocationUpdates] 
+  🎾  Location-services: ON
+11-06 10:38:45.852 DEBUG [TSConfig translateDesiredAccuracy] translateDesiredAccuracy (true): 0
+11-06 10:38:45.871 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] still (100%)
+11-06 10:38:45.887 INFO [c persist] 
+  ✅  INSERT: 57a4ec6c-f91e-46e8-b2fb-d762ea0706a2
+11-06 10:38:45.891 INFO [BackgroundGeolocationService onActivityRecognitionResult] 
+  🔵  Stop-timeout timer initiated (15 min)...
+11-06 10:38:45.905 INFO [BackgroundGeolocationService h] 
+  🔵  Begin stop timer
+11-06 10:38:45.931 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280549,73.010717 hAcc=23 et=+10h59m37s487ms alt=207.60000610351562 vel=2.1342478 bear=136.34131 vAcc=7 sAcc=??? bAcc=??? {Bundle[mParcelledData.dataSize=52]}], age: 33ms, time: 1573016925895
+
+11-06 10:38:45.941 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:38:45.954 DEBUG [TSLocationManager onLocationResult] 
+  ℹ️  IGNORED: same as last location
+11-06 10:38:45.962 INFO [BackgroundGeolocationService onLocationResult] 
+  ℹ️  Distance from stoppedAtLocation: -46.828
+11-06 10:38:45.965 INFO [LocationService onLocation] 
+  ℹ️  Location availability: true
+11-06 10:38:47.254 INFO [TSLocationManager d] 
+  🔴  Location-services: OFF
+11-06 10:38:47.281 DEBUG [BackgroundGeolocationService i] 
+11-06 10:38:47.308 INFO [BackgroundGeolocationService k] 
+  🔴  Stop heartbeat
+11-06 10:38:47.348 INFO [BackgroundGeolocationService a] 
+  🔵  setPace: true → true
+11-06 10:38:47.357 DEBUG [TSConfig c] ℹ️   Persist config
+11-06 10:38:47.372 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:38:49.643 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 12
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280522,73.010742 hAcc=25 et=+10h59m41s73ms alt=206.90000915527344 vel=1.5423232 bear=137.4254 vAcc=7 sAcc=??? bAcc=??? {Bundle[{requestId=12, verticalAccuracy=6.699997}]}], age: 152ms, time: 1573016929481
+
+11-06 10:38:49.646 INFO [TSLocationManager onSingleLocationResult] 
+  🔵  Acquired motionchange position, isMoving: true
+11-06 10:38:49.668 DEBUG [TSLocationManager a] 23.279
+11-06 10:38:49.687 DEBUG [TSLocationManager a] 169.67723
+11-06 10:38:49.707 INFO [TSLocationManager requestLocationUpdates] 
+  🎾  Location-services: ON
+11-06 10:38:49.717 DEBUG [TSConfig translateDesiredAccuracy] translateDesiredAccuracy (true): 0
+11-06 10:38:49.729 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] still (100%)
+11-06 10:38:49.731 INFO [c persist] 
+  ✅  INSERT: ccfdd333-ff92-4c41-a6fa-6eb479c27194
+11-06 10:38:49.740 INFO [BackgroundGeolocationService onActivityRecognitionResult] 
+  🔵  Stop-timeout timer initiated (15 min)...
+11-06 10:38:49.753 INFO [BackgroundGeolocationService h] 
+  🔵  Begin stop timer
+11-06 10:38:49.779 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280522,73.010742 hAcc=25 et=+10h59m41s343ms alt=206.90000915527344 vel=1.5423232 bear=137.4254 vAcc=7 sAcc=??? bAcc=??? {Bundle[mParcelledData.dataSize=52]}], age: 25ms, time: 1573016929751
+
+11-06 10:38:49.790 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:38:49.798 DEBUG [TSLocationManager onLocationResult] 
+  ℹ️  IGNORED: same as last location
+11-06 10:38:49.806 INFO [BackgroundGeolocationService onLocationResult] 
+  ℹ️  Distance from stoppedAtLocation: -49.326
+11-06 10:38:49.831 INFO [LocationService onLocation] 
+  ℹ️  Location availability: true
+11-06 10:38:50.271 INFO [TSLocationManager d] 
+  🔴  Location-services: OFF
+11-06 10:38:50.312 DEBUG [BackgroundGeolocationService i] 
+11-06 10:38:50.357 INFO [BackgroundGeolocationService k] 
+  🔴  Stop heartbeat
+11-06 10:38:50.380 INFO [BackgroundGeolocationService a] 
+  🔵  setPace: true → true
+11-06 10:38:50.395 DEBUG [TSConfig c] ℹ️   Persist config
+11-06 10:38:50.408 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:38:52.564 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 14
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280520,73.010744 hAcc=26 et=+10h59m44s41ms alt=206.90000915527344 vel=0.88076144 bear=137.90585 vAcc=7 sAcc=??? bAcc=??? {Bundle[{requestId=14, verticalAccuracy=6.699997}]}], age: 107ms, time: 1573016932449
+
+11-06 10:38:52.565 DEBUG [TSLocationManager a] 23.414
+11-06 10:38:52.580 DEBUG [TSLocationManager a] 170.06325
+11-06 10:38:59.364 DEBUG [b a] 
+  ℹ️  LocationAuthorization: Permission granted
+11-06 10:39:00.445 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 17
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280609,73.010661 hAcc=45 et=+10h59m51s847ms alt=206.90000915527344 vel=1.0283338 bear=318.87033 vAcc=7 sAcc=20 bAcc=10 {Bundle[{requestId=17, verticalAccuracy=6.699997}]}], age: 185ms, time: 1573016941591
+
+11-06 10:39:00.447 INFO [TSLocationManager onSingleLocationResult] 
+  🔵  Acquired current position
+11-06 10:39:00.489 DEBUG [SingleLocationRequest$2 onLocationResult] 
+╔═════════════════════════════════════════════
+║ SingleLocationRequest: 14
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280609,73.010661 hAcc=45 et=+10h59m51s847ms alt=206.90000915527344 vel=1.0283338 bear=318.87033 vAcc=7 sAcc=20 bAcc=10 {Bundle[{requestId=14, verticalAccuracy=6.699997}]}], age: 229ms, time: 1573016941591
+
+11-06 10:39:00.513 DEBUG [TSLocationManager a] 24.663
+11-06 10:39:00.545 DEBUG [TSLocationManager a] 182.96481
+11-06 10:39:00.632 INFO [TSLocationManager onSingleLocationResult] 
+  🔵  Acquired motionchange position, isMoving: true
+11-06 10:39:00.646 INFO [c persist] 
+  ✅  INSERT: c8f9bf4e-ca7f-4be8-a0a4-c0fb6e167498
+11-06 10:39:00.666 DEBUG [TSLocationManager a] 24.663
+11-06 10:39:00.717 DEBUG [TSLocationManager a] 195.86638
+11-06 10:39:00.768 INFO [TSLocationManager requestLocationUpdates] 
+  🎾  Location-services: ON
+11-06 10:39:00.785 DEBUG [TSConfig translateDesiredAccuracy] translateDesiredAccuracy (true): 0
+11-06 10:39:00.815 DEBUG [BackgroundGeolocationService onActivityRecognitionResult] still (100%)
+11-06 10:39:00.826 INFO [c persist] 
+  ✅  INSERT: 3c20dc41-3185-4042-9fda-9eb8942e48a0
+11-06 10:39:00.925 INFO [BackgroundGeolocationService onActivityRecognitionResult] 
+  🔵  Stop-timeout timer initiated (15 min)...
+11-06 10:39:00.959 INFO [BackgroundGeolocationService h] 
+  🔵  Begin stop timer
+11-06 10:39:02.457 INFO [LocationService onLocation] 
+  ℹ️  Location availability: true
+11-06 10:39:04.898 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280616,73.010634 hAcc=55 et=+10h59m56s358ms alt=206.90000915527344 vel=0.76985615 bear=311.06918 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[mParcelledData.dataSize=52]}], age: 129ms, time: 1573016944766
+
+11-06 10:39:04.912 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:39:04.919 DEBUG [TSLocationManager a] 24.663
+11-06 10:39:04.928 DEBUG [TSLocationManager a] 211.24178
+11-06 10:39:04.941 INFO [BackgroundGeolocationService onLocationResult] 
+  ℹ️  Distance from stoppedAtLocation: -65.6906
+11-06 10:39:04.945 INFO [c persist] 
+  ✅  INSERT: 560f7265-cc66-4969-8c20-d02459859250
+11-06 10:39:15.567 DEBUG [LocationService onLocation] 
+╔═════════════════════════════════════════════
+║ LocationService: location
+╠═════════════════════════════════════════════
+╟─ 📍  Location[fused 26.280482,73.010571 hAcc=30 et=+11h0m6s580ms alt=206.90000915527344 vel=1.0231292 bear=195.37514 vAcc=7 sAcc=-1 bAcc=-1 {Bundle[mParcelledData.dataSize=52]}], age: 576ms, time: 1573016954989
+
+11-06 10:39:15.789 DEBUG [TSLocationManager onLocationResult] 
+╔═════════════════════════════════════════════
+║ Process LocationResult
+╠═════════════════════════════════════════════
+
+11-06 10:39:15.798 DEBUG [TSLocationManager a] 26.21
+11-06 10:39:15.839 DEBUG [TSLocationManager a] 227.38437
+11-06 10:39:15.859 INFO [BackgroundGeolocationService onLocationResult] 
+  ℹ️  Distance from stoppedAtLocation: -38.134373
+11-06 10:39:15.863 INFO [c persist] 
+  ✅  INSERT: f7271991-1d70-4758-98db-0229210cbe51
+------------------------------------------------------
+
+BackgroundGeolocation.ready({
+  desiredAccuracy: 0,
+  distanceFilter: 0,
+  stopTimeout: 15,
+  debug: true,              // <-- enable this hear debug sounds.
+  logLevel: BackgroundGeolocation.LOG_LEVEL_VERBOSE,
+  stopOnTerminate: false,   // <-- Allow the background-service to continue tracking when app terminated.
+  startOnBoot: true,        // <-- Auto start tracking when device is powered-up.
+  stopOnStationary: false,
+  isMoving: true,
+  foregroundService: true,
+  enableHeadless: true,
+  preventSuspend:true,
+  stopOnStillActivity: false,
+  pauseLocationUpdates: false,
+  allowsBackgroundLocationUpdates:true,
+  heartbeatInterval: 60,
+  locationUpdateInterval: 1000,
+}, (state) => {
+  console.log('ready - success:', state);
+
+  if (!state.enabled) {
+    // 3. Start tracking!
+    BackgroundGeolocation.start(function() {
+      console.log("- - -Start success- - -");
+       call_fun1();
+    });
+  }else
+  {
+   BackgroundGeolocation.start(function() {
+      console.log("- - -Start success- - -");
+      call_fun1();
+    });
+  }
+});
+
+
+BackgroundGeolocation.on('heartbeat', function(params) {
+  console.log('- hearbeat',params);
+  // You could request a new location if you wish.
+  BackgroundGeolocation.getCurrentPosition(function(location) {
+    console.log('- current location: ', location);
+  });
+});
+
+BackgroundGeolocation.on('Location', function(location){
+  console.log('[onLocation] success: ', location);
+}, (error) => {
+  console.log('[onLocation] ERROR: ', error);
+});
+
+BackgroundGeolocation.getLog(function(log) {
+  console.log(log);
+});
+  
+ BackgroundGeolocation.setConfig({
+  desiredAccuracy:0,
+  distanceFilter: 0,
+  stopTimeout: 15,
+  debug: true,              // <-- enable this hear debug sounds.
+  logLevel: BackgroundGeolocation.LOG_LEVEL_VERBOSE,
+  stopOnTerminate: false,   // <-- Allow the background-service to continue tracking when app terminated.
+  startOnBoot: true,        // <-- Auto start tracking when device is powered-up.
+  stopOnStationary: false,
+  isMoving: true,
+  foregroundService: true,
+  enableHeadless: true,
+  preventSuspend:true,
+  stopOnStillActivity: false,
+  pauseLocationUpdates: false,
+  allowsBackgroundLocationUpdates:true,
+  heartbeatInterval: 60,
+  locationUpdateInterval: 1000,
+}).then((state) => {
+  console.log('set config success:', state);
+})
+function call_fun1()
+{
+ myVar1 =  setInterval(function () {
+ BackgroundGeolocation.getCurrentPosition({
+     timeout: 30,          // 30 second timeout to fetch location
+     persist: true,        // Defaults to state.enabled
+     maximumAge: 5000,     // Accept the last-known-location if not older than 5000 ms.
+     desiredAccuracy: 100,  // Try to fetch a location with an accuracy of `10` meters.
+     samples: 1,
+  }).then((location) => {
+    console.log('[getCurrentPosition] ', location);
+   walk_latlng.push({"lat":location.coords.latitude,"lng":location.coords.longitude,"accuracy":location.coords.accuracy,"time_req":new Date().toLocaleTimeString(),"activity":location.activity.type});
+  });
+
+   },15000);
+}
